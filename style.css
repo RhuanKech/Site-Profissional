@@ -1,0 +1,38 @@
+:root {
+    --cor-principal: #150a75;
+    --cor-secundaria: #d14216;
+}
+
+nav {
+    max-width: 350px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    border-bottom: 1px solid var(--cor-secundaria) ;
+}
+
+nav ul li a {
+    background-color: var(--cor-principal);
+    color:#fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+img {
+    width: 200px;
+    margin-left: 75px;
+    }
